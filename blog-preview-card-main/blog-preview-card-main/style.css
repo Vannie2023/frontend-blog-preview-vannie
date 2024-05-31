@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+}
+
+  
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: 	#f4d04e;
+        min-height: 100vh;
+    }
+
+    .maincontainer { 
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        width: 100%;
+        padding: 30px; 
+        border-radius: 20px;
+        background-color: #ffffff;
+        border: solid 0.5px;
+        box-shadow: 8px 8px 0px black;
+    }
+
+    .maincontainer img { 
+        border-radius: 10px;
+       
+    }
+
+    .secondcontainer button{ 
+        border-radius: 4px;
+        width: 70px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size:12px ;
+        background-color: 	#f4d04e;
+        border: none;
+        font-weight: bolder;
+        font-size: 0.7rem; 
+        outline: none;
+        cursor:pointer; 
+        transition: all 0.15s ease-in-out;
+        
+    }
+
+    .secondcontainer button:hover{ 
+        background-color: #c5f82a;
+        color: #1f1f1f;
+    }
+
+    .thirdcontainer p{ 
+font-size:11px ;
+margin-bottom: 10px;
+font-weight: bold;
+    }
+
+    .fourthcontainer h3{ 
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-weight: bold;
+     }
+
+     .fourthcontainer p{
+        color: 	#808080;
+        font-size: 16px;
+        margin-bottom: 30px;
+     }
+
+     .fifthcontainer {
+        display: flex;
+        align-items: flex-start;
+     }
+
+     .fifthcontainer img {
+        border-radius: 50%;
+        width: 30px;
+        margin: 0px 10px 10px 0px;
+    
+     }
+
+     .fifthcontainer p {
+      font-size: 10px;
+      float: inline;
+      
+
+     }
+
+.attribution { 
+    font-size: 12px; 
+    text-align: center; 
+    margin-top: 10px;
+}
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    @media (min-width: 768px) {
+        .maincontainer {margin: 5rem auto 0;
+            padding: 2rem;
+            border-radius: 1rem;
+        }
+    }
